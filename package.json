@@ -2,7 +2,7 @@
   "name": "shop-it",
   "version": "0.1.0",
   "description": "Shop-It is a modern e-commerce platform designed to offer a seamless and enjoyable shopping experience. The app connects users with a wide range of products across various categories, such as electronics, fashion, groceries, and more. With its user-friendly interface and powerful features, Shop-It simplifies online shopping for customers while providing sellers with robust tools to manage their inventory and orders.",
-  "developer":"Mahmoud Ali Eid", 
+  "developer": "Mahmoud Ali Eid",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -11,19 +11,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.0"
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.0",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
